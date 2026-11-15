@@ -196,6 +196,22 @@ node server.js
 
 📖 更多细节见 **[开发调试指南](docs/开发调试指南.md)** —— 含模拟器/真机调试、端口转发、常见问题排查。
 
+<details>
+<summary><b>以后想继续维护这个项目？</b></summary>
+
+本地工程删掉也不影响 —— GitHub 上的仓库就是唯一真源。
+
+```bash
+git clone git@github.com:xibei-wolf/HeartSync.git
+cd HeartSync
+```
+
+或者直接双击仓库里的 **`重新开始.bat`**，它会自动克隆工程、生成 `local.properties` 与 `server/.env`、校验环境。
+
+完整工作流（拉取 → 改码 → 构建 → 推送）、常见坑与安全约定见 **[二次开发指南](docs/二次开发指南.md)**。
+
+</details>
+
 ---
 
 ## 项目结构
@@ -223,8 +239,10 @@ HeartSync/
 │   └── data/tips.json            # 37 条健康贴士
 ├── docs/
 │   ├── 开发调试指南.md            # 运行 / 调试 / 排错
+│   ├── 二次开发指南.md            # 以后想继续维护这个项目看这里
 │   └── screenshots/              # 界面截图
 ├── tools/                        # 开发辅助脚本（不参与编译）
+├── 重新开始.bat                  # 一键从 GitHub 恢复工程 + 补齐本地配置
 ├── LICENSE
 └── README.md
 ```
