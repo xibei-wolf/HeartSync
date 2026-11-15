@@ -14,6 +14,7 @@
 [![Language](https://img.shields.io/badge/Language-Java%20%2B%20Node.js-orange?logo=openjdk)](https://openjdk.org)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![API](https://img.shields.io/badge/API-7%20REST%20endpoints-success)](server/README.md)
+[![Release](https://img.shields.io/badge/Release-v1.0.0-3DDC84?logo=github&logoColor=white)](https://github.com/xibei-wolf/HeartSync/releases/tag/v1.0.0)
 
 </div>
 
@@ -32,6 +33,24 @@
   <img src="docs/screenshots/09-health-report.png" width="220" alt="健康报告">
   <img src="docs/screenshots/08-ai-chat.png" width="220" alt="AI 对话">
 </div>
+
+---
+
+## 下载
+
+<p align="center">
+  <a href="https://github.com/xibei-wolf/HeartSync/releases/tag/v1.0.0"><img src="https://img.shields.io/badge/Release-v1.0.0-3DDC84?style=for-the-badge&logo=github&logoColor=white" alt="Release"></a>
+</p>
+
+**Releases 页面**提供三个附件：
+
+| 附件 | 说明 |
+|---|---|
+| `HeartSync-debug.apk` | Debug 安装包，装到手机/模拟器即可体验全部功能（5.9 MB） |
+| `course-report.docx` | 课程设计报告，含 16 张真实截图与完整技术说明（2.0 MB） |
+| `demo-video.mp4` | 14 秒核心界面演示录屏（6.4 MB） |
+
+> 首次使用请先在「设置 → 大模型 AI 配置」填入自己的 API Key；未配置时 App 会自动降级到本地知识库兜底，功能不中断。
 
 ---
 
