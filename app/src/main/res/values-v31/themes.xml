@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Android 12+ (API 31) 系统启动屏配置。
+
+    背景：品牌青 #2FB8A6，与 App 内启动页(activity_splash.xml)底色一致；
+    图标：白色圆 + 青色心形，与 App 内启动页 Logo 完全一致。
+
+    效果：系统启动屏 → App 自绘启动页 之间无缝衔接，
+    不会再出现「心形被啃掉一块」的残缺乱帧。
+-->
+<resources>
+
+    <style name="Theme.HeartSync.Splash" parent="Theme.HeartSync">
+        <item name="android:windowBackground">@color/brand_primary</item>
+        <item name="android:statusBarColor">@color/brand_primary_dark</item>
+
+        <!-- 系统启动屏背景 -->
+        <item name="android:windowSplashScreenBackground">@color/brand_primary</item>
+        <!-- 系统启动屏图标：白圆 + 青色心形 -->
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/ic_launcher_foreground</item>
+        <!-- 图标出现动画时长 -->
+        <item name="android:windowSplashScreenAnimationDuration">300</item>
+    </style>
+
+</resources>

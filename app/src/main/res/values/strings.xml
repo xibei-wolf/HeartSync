@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">心晴校园</string>
+    <string name="app_slogan">懂你的每一次心跳</string>
+    <string name="app_desc">大学生身心健康助手 · 作息 / 运动 / 情绪 / 急救 / AI</string>
+
+    <!-- 通用 -->
+    <string name="common_confirm">确定</string>
+    <string name="common_cancel">取消</string>
+    <string name="common_save">保存</string>
+    <string name="common_delete">删除</string>
+    <string name="common_edit">编辑</string>
+    <string name="common_back">返回</string>
+    <string name="common_more">更多</string>
+    <string name="common_empty">暂无数据</string>
+    <string name="common_loading">加载中…</string>
+    <string name="common_network_error">网络连接失败，请检查网络或服务器地址</string>
+    <string name="common_success">操作成功</string>
+    <string name="common_failed">操作失败</string>
+
+    <!-- 启动页 -->
+    <string name="splash_tagline">记录 · 洞察 · 陪伴</string>
+
+    <!-- 登录 -->
+    <string name="login_title">欢迎回来</string>
+    <string name="login_subtitle">登录后开启你的身心健康之旅</string>
+    <string name="login_account_hint">请输入学号</string>
+    <string name="login_password_hint">请输入密码（至少 6 位）</string>
+    <string name="login_btn">登录 / 注册</string>
+    <string name="login_to_register">没有账号？点击注册新账号</string>
+    <string name="register_title">创建账号</string>
+    <string name="register_subtitle">注册后自动登录，数据保存在本机</string>
+    <string name="login_err_account_empty">学号不能为空</string>
+    <string name="login_err_password_short">密码至少 6 位</string>
+    <string name="login_err_account_exists">该学号已注册，请直接登录</string>
+    <string name="login_err_account_not_exists">该学号尚未注册，请先注册</string>
+    <string name="login_err_password_wrong">密码错误，请重新输入</string>
+
+    <!-- 首页 -->
+    <string name="home_greeting_morning">早上好</string>
+    <string name="home_greeting_noon">中午好</string>
+    <string name="home_greeting_evening">晚上好</string>
+    <string name="home_title">今日健康概览</string>
+    <string name="home_health_score">健康指数</string>
+    <string name="home_sleep_today">今日睡眠</string>
+    <string name="home_exercise_today">今日运动</string>
+    <string name="home_mood_today">今日心情</string>
+    <string name="home_ai_card_title">AI 心晴助手</string>
+    <string name="home_ai_card_sub">根据你的记录生成今日建议</string>
+    <string name="home_quick_title">快捷功能</string>
+    <string name="home_feature_title">功能模块</string>
+
+    <!-- 睡眠 -->
+    <string name="sleep_title">作息记录</string>
+    <string name="sleep_add">记录一次睡眠</string>
+    <string name="sleep_detail_title">睡眠详情</string>
+    <string name="sleep_start_time">入睡时间</string>
+    <string name="sleep_wake_time">起床时间</string>
+    <string name="sleep_duration">睡眠时长</string>
+    <string name="sleep_quality">睡眠质量</string>
+    <string name="sleep_quality_1">很差</string>
+    <string name="sleep_quality_2">较差</string>
+    <string name="sleep_quality_3">一般</string>
+    <string name="sleep_quality_4">良好</string>
+    <string name="sleep_quality_5">极佳</string>
+    <string name="sleep_deep_duration">深睡时长</string>
+    <string name="sleep_note">睡眠备注</string>
+    <string name="sleep_note_hint">例如：睡前看了手机、做了噩梦…</string>
+    <string name="sleep_advice_title">AI 作息分析</string>
+    <string name="sleep_avg_duration">平均时长</string>
+    <string name="sleep_avg_quality">平均质量</string>
+    <string name="sleep_record_count">记录条数</string>
+
+    <!-- 运动 -->
+    <string name="exercise_title">运动打卡</string>
+    <string name="exercise_add">添加运动</string>
+    <string name="exercise_type">运动类型</string>
+    <string name="exercise_duration">运动时长（分钟）</string>
+    <string name="exercise_intensity">运动强度</string>
+    <string name="exercise_calories">消耗热量（千卡）</string>
+    <string name="exercise_note">运动备注</string>
+    <string name="exercise_total_minutes">累计运动</string>
+    <string name="exercise_total_calories">累计消耗</string>
+    <string name="exercise_days">运动天数</string>
+
+    <!-- 情绪 -->
+    <string name="mood_title">情绪记录</string>
+    <string name="mood_add">记录此刻心情</string>
+    <string name="mood_detail_title">情绪详情</string>
+    <string name="mood_score">心情分值</string>
+    <string name="mood_tags">情绪标签</string>
+    <string name="mood_diary">情绪日记</string>
+    <string name="mood_diary_hint">写下此刻的感受，AI 会帮你分析…</string>
+    <string name="mood_ai_analysis">AI 情绪分析</string>
+    <string name="mood_avg_score">平均心情</string>
+    <string name="mood_record_count">记录条数</string>
+    <string name="mood_select_tag">选择标签（可多选）</string>
+
+    <!-- AI -->
+    <string name="ai_title">AI 心晴助手</string>
+    <string name="ai_input_hint">说说你的困扰，例如：最近考试压力大睡不好…</string>
+    <string name="ai_send">发送</string>
+    <string name="ai_clear">清空对话</string>
+    <string name="ai_thinking">AI 正在思考…</string>
+    <string name="ai_placeholder">你好！我是「心晴」你的校园健康助手。\n\n我可以帮你：\n• 分析睡眠记录，找出作息问题\n• 解读情绪变化，给出调节建议\n• 制定运动与放松计划\n• 解答校园急救常识\n\n有什么想聊的？</string>
+    <string name="ai_error_no_key">尚未配置大模型 API Key，请到「我的 - 设置」中填写</string>
+    <string name="ai_error_request_failed">调用大模型失败：%1$s</string>
+
+    <!-- 急救 -->
+    <string name="firstaid_title">校园急救</string>
+    <string name="firstaid_detail_title">急救详情</string>
+    <string name="firstaid_search_hint">搜索急救知识，如：中暑、扭伤、流鼻血</string>
+    <string name="firstaid_steps">处理步骤</string>
+    <string name="firstaid_caution">注意事项</string>
+    <string name="firstaid_call">立即拨打 120</string>
+    <string name="firstaid_emergency_tip">遇到危急情况请第一时间拨打 120 / 12022，不要依赖 App</string>
+
+    <!-- 设置 -->
+    <string name="settings_title">设置</string>
+    <string name="settings_ai_section">大模型 AI 配置</string>
+    <string name="settings_api_key">API Key</string>
+    <string name="settings_api_base">接口地址 (Base URL)</string>
+    <string name="settings_model">模型名称</string>
+    <string name="settings_server_section">服务器配置</string>
+    <string name="settings_server_base">业务服务器地址</string>
+    <string name="settings_preset">快速选择服务商</string>
+    <string name="settings_data_section">数据管理</string>
+    <string name="settings_clear_cache">清除本地缓存</string>
+    <string name="settings_export">导出数据摘要</string>
+    <string name="settings_about">关于</string>
+    <string name="settings_version">版本</string>
+    <string name="settings_author">作者</string>
+
+    <!-- 底部导航 -->
+    <string name="nav_home">首页</string>
+    <string name="nav_sleep">作息</string>
+    <string name="nav_exercise">运动</string>
+    <string name="nav_mood">情绪</string>
+    <string name="nav_mine">我的</string>
+</resources>

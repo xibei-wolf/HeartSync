@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <!-- 课程作业：自建 Node.js 服务器与公开大模型 API 均为 HTTP/HTTPS 混合调用，
+         因此显式允许明文流量，仅用于本地开发调试环境。 -->
+    <base-config cleartextTrafficPermitted="true">
+        <trust-anchors>
+            <certificates src="system" />
+        </trust-anchors>
+    </base-config>
+</network-security-config>

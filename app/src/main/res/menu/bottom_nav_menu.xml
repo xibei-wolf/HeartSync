@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_home"
+        android:title="@string/nav_home" />
+    <item
+        android:id="@+id/nav_sleep"
+        android:icon="@drawable/ic_moon"
+        android:title="@string/nav_sleep" />
+    <item
+        android:id="@+id/nav_exercise"
+        android:icon="@drawable/ic_run"
+        android:title="@string/nav_exercise" />
+    <item
+        android:id="@+id/nav_mood"
+        android:icon="@drawable/ic_mood"
+        android:title="@string/nav_mood" />
+    <item
+        android:id="@+id/nav_mine"
+        android:icon="@drawable/ic_person"
+        android:title="@string/nav_mine" />
+</menu>

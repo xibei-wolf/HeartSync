@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ============ 品牌主色：晨曦青（健康 / 平静 / 专注） ============ -->
+    <color name="brand_primary">#2FB8A6</color>
+    <color name="brand_primary_dark">#249B8C</color>
+    <color name="brand_primary_light">#7FD9CD</color>
+    <color name="brand_primary_container">#D7F2EE</color>
+
+    <!-- ============ 辅助强调色：暖珊瑚（运动 / 提醒） ============ -->
+    <color name="accent_coral">#FF8A65</color>
+    <color name="accent_coral_light">#FFE0D6</color>
+    <color name="accent_indigo">#5C6BC0</color>
+    <color name="accent_indigo_light">#E1E4F5</color>
+
+    <!-- ============ 中性色 ============ -->
+    <color name="bg_page">#F4F7F9</color>
+    <color name="bg_card">#FFFFFF</color>
+    <color name="bg_subtle">#EDF2F5</color>
+    <color name="divider">#E3EAEE</color>
+
+    <color name="text_primary">#1F2D3D</color>
+    <color name="text_secondary">#6B7A8C</color>
+    <color name="text_hint">#A5B2BF</color>
+    <color name="text_on_primary">#FFFFFF</color>
+
+    <!-- ============ 语义状态色 ============ -->
+    <color name="status_success">#34C77B</color>
+    <color name="status_warning">#FFB020</color>
+    <color name="status_error">#EF5350</color>
+    <color name="status_info">#4A90D9</color>
+
+    <!-- ============ 情绪色阶（记录心情时按分值取色） ============ -->
+    <color name="mood_great">#34C77B</color>
+    <color name="mood_good">#8BC34A</color>
+    <color name="mood_normal">#FFB020</color>
+    <color name="mood_low">#FF8A65</color>
+    <color name="mood_bad">#EF5350</color>
+
+    <!-- ============ 睡眠色阶 ============ -->
+    <color name="sleep_excellent">#34C77B</color>
+    <color name="sleep_good">#4A90D9</color>
+    <color name="sleep_fair">#FFB020</color>
+    <color name="sleep_poor">#EF5350</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+</resources>

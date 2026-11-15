@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    启动图标前景层（自适应图标，API 26+ 使用）。
+
+    设计：青底 + 白色圆 + 青色心形，与 App 内启动页 Logo 完全一致。
+    心形轮廓复用 res/drawable/ic_heart.xml 的 24x24 路径，
+    经 group 缩放平移到 108x108 视口中央的安全区内。
+
+    注意：不要在本层叠加其它图形。早期版本叠了一条青色（#2FB8A6）心电波形，
+    它与背景色同色，在纯青底上会与白色心形「融」在一起，
+    导致 Android 12+ 系统启动屏显示出一帧残缺的乱画面。
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- 白色圆：直径 66dp，落在自适应图标可见安全区（中央 72dp）内 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M21,54 a33,33 0 1,0 66,0 a33,33 0 1,0 -66,0 Z" />
+
+    <!-- 青色心形：24x24 路径放大 1.35 倍后居中 -->
+    <group
+        android:scaleX="1.35"
+        android:scaleY="1.35"
+        android:translateX="37.8"
+        android:translateY="37.5">
+        <path
+            android:fillColor="#2FB8A6"
+            android:pathData="M12,21.4l-1.4,-1.3C5.4,15.4 2,12.3 2,8.5 2,5.4 4.4,3 7.5,3c1.7,0 3.4,0.8 4.5,2.1C13.1,3.8 14.8,3 16.5,3 19.6,3 22,5.4 22,8.5c0,3.8 -3.4,6.9 -8.6,11.5L12,21.4z" />
+    </group>
+</vector>
