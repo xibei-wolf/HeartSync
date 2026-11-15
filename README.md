@@ -1,4 +1,8 @@
 <div align="center">
+  <img src="docs/social-preview.png" alt="心晴校园 HeartSync" width="100%">
+</div>
+
+<div align="center">
 
 # 心晴校园 · HeartSync
 
@@ -44,10 +48,17 @@
 | 👤 **个人** | 学号注册登录、昵称班级、设置中心 | SQLite、SharedPreferences |
 
 <div align="center">
+  <img src="docs/screenshots/03-sleep-list.png" width="180" alt="睡眠记录列表">
   <img src="docs/screenshots/04-sleep-detail-ai.png" width="180" alt="睡眠详情与 AI 分析">
   <img src="docs/screenshots/06-mood-detail-ai.png" width="180" alt="情绪详情与 AI 分析">
   <img src="docs/screenshots/07-firstaid.png" width="180" alt="校园急救">
+</div>
+
+<div align="center">
+  <img src="docs/screenshots/05-exercise.png" width="180" alt="运动打卡">
+  <img src="docs/screenshots/01-login.png" width="180" alt="登录注册">
   <img src="docs/screenshots/10-profile.png" width="180" alt="个人中心">
+  <img src="docs/screenshots/11-settings.png" width="180" alt="设置中心">
 </div>
 
 ---
